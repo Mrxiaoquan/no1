@@ -1,203 +1,197 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>D剁手街</title>
-  <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-  <div class="top-nav">
-    <div class="container clear-float">
-      <div class="fl">
-        <a class="item" href="#">首页</a>
-      </div>
-      <div class="fr">
-      <a class="item" href="#">我的订单</a>
-      <a class="item" href="#">我的收藏</a>
-      <a class="item" href="#">登录</a>
-      <a class="item" href="#">注册</a>
-      </div>
-    </div>
-  </div>
-  <div class="header clear-float">
-  <div class="container ">
-    <div class="col-2 logo">剁手街
-    </div>
-    <div class="col-5 search-bar">
-      <input type="text" >
-      <button type="button" name="button">搜索</button>
-    </div>
-    <div class="col-3 cart">
-      <a  href="#">我的购物车</a>
-    </div>
-  </div>
-  </div>
-  <div class="main-promote clear-float">
-  <div class="container">
-    <div class="col-2 cat">
-      <div class="item">item</div>
-      <div class="item">item </div>
-      <div class="item">item</div>
-      <div class="item">item </div>
-      <div class="item">item</div>
-      <div class="item">item</div>
-    </div>
-    <div class="col-6">
-      <div class="slider">
-          <img src="imag/xga.png" alt="">
-      </div>
-    <div class="sub-promote">
-      <div class="col-5">
-        <img src="imag/04.jpg" alt="">
-      </div>
-      <div class="col-5">
-        <img src="imag/04.jpg" alt="">
-      </div>
-    </div>
-    </div>
-    <div class="col-2 info">
-    <div class="auth clear-float">
-      <div class="avatar">  </div>
-      你好，欢迎剁手~
-    </div>
-    <div class="anno">
-      <b class="title">
-        公告
-      </b>
-      <div class="content">
-        本商城欢迎帅哥美女前来剁手~
-      </div>
-    </div>
-    </div>
-  </div>
- </div>
-  <div class="cat-promote clear-float">
+* {
+  -webkit-盒大小：边界盒;
+  盒子大小：边框;
+  -webkit过渡：100毫秒;
+  -o-过渡：100毫秒;
+  过渡：100毫秒;
+}
+身体 {
+  font-size：14px;
+    线高：1.7;
+  颜色：＃444;
+  背景：＃f9f9f9;
+}
+。一个 {
+  文字装饰：无;
+}
+img {
+  显示：块;
+  最大宽度：100％;
+}
+。容器 {
+  显示：块;
+  max-width：1080px;
+  边距：0自动;
+}
+.fl {
+  浮动：左;
+}
+.fr {
+  浮动：权利;
+}
+.clear浮子：后，
+.clear-float：before {
+  内容：“”;
+  显示：块;
+  清楚：两者;
+}
+.COL-1，
+.COL-2，
+.COL-3，
+.COL-4，
+.COL-5，
+.COL-6，
+.COL-7，
+.COL-8，
+.col-9 {
+  显示：块;
+  位置：亲戚;
+  最小高度：1px的;
+  浮动：左;
+}
 
-    <div class="container">
-      <div class="title">女装</div>
-      <div class="content">
-        <div class="col-2">
-          <div class="card">
+.col-1 {
+  宽度：10％
+}
+.col-2 {
+  宽度：20％
+}
+.col-3 {
+  宽度：30％
+}
+.col-4 {
+  宽度：40％
+}
+.col-5 {
+  宽度：50％
+}
+.col-6 {
+  宽度：60％
+}
+.col-7 {
+  宽度：70％
+}
+.col-8 {
+  宽度：80％
+}
+.col-9 {
+  宽度：90％
+}
+.top-nav {
+  背景：#eee;
+}
+.top-nav .item {
+  显示：inline-block;
+  padding：6px 10px;
+  颜色：＃666;
+}
+.top-nav .item：hover {
+  颜色：＃333;
+}
+.header .logo {
+  font-size：30px;
+}
+.header {
+  填充：20px 0;
+}
+.header .search-bar {
+  border：2px solid＃dd182b;
+  背景：＃dd182b;
+}
+.header .search-bar输入，
+.header .search-bar按钮
+{
+  显示：块;
+  浮动：左;
+  边界：0;
+  填充：10px的;
+  大纲：0;
+}
+.header .search-bar input：focus {
+  -webkit-box-shadow：0 0 2px 2px rgba（0,0,0，.3）;
+  box-shadow：inset 0 0 2px 2px rgba（0，0，0，.3）;
+  宽度：80％;
+}
+.header .search-bar输入{
+宽度：80％;}
+.header .search-bar按钮{
+  宽度：20％;
+  背景：＃dd182b;
+  颜色：#FFF;
+}
+.header .search-bar按钮：hover {
+  背景：＃ce1829;
+}
+.header .cart {
+  text-align：center;
+}
+.header .cart a {
+  浮动：权利;
+  填充：10px的;
+  背景：#FFF;
+  border：1px solid #eee;
+  宽度：80％;
+  颜色：＃dd182b
+}
+主要推广{
+  背景：#dedede;
+}
+.main-promotion .cat {
+  背景：＃6e6568;
+  颜色：#FFF;
+}
+.main-promotion .cat .item {
+  padding：14px 20px;
+}
+.main-promotion .cat .item：hover {
+  背景：rgba（0,0,0,0.2）;
+}
+.main-promotion .info {
+  padding：10px;
+  背景：#fff;
+  颜色：＃888;
+  -webkit-box-shadow：0 1px 2px rgba（0,0,0，.1）;
+  box-shadow：inset：0 1px 2px rgba（0，0，0，0.1）;
+}
+.main-promotion .info .avatar {
+  宽度：50px;
+  height：50px;
+  背景：#aaa;
+  border-radius：50％;
+  float：left;
+  保证金权：10px的;
+}
+.main-promotion .info> * {
+  margin-bottom：10px;
+}
+.cat-promotion .title :: before {
+  内容：“”;
+  显示：inline-block;
+  垂直对齐：中间
+  width：5px;
+  height：25px;
+  背景：＃dd182b;
+  margin-right：10px;
+}
+.cat-promotion .title {
+  font-size：22px;
+}
+.cat-promotion .item {
+  填充：5像素;
+}
 
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
+.cat-promotion .card {
+  高度：300像素;
+  背景：#ccc;
+  border-radius：4px;
+  box-shadow：0 2px 2px rgba（0，0，0，0.1;
+}
+.footer {
+  文本对齐：中心;
+  颜色：＃999;
+  背景：#eee;
+  边距：30像素;
+}
+.footer a {
 
-          </div>
-         </div>
-        <div class="col-2 item">
-          <div class="card">
-
-          </div>
-         </div>
-      </div>
-    </div>
-
-    </div>
-  </div>
-  <div class="cat-promote clear-float">
-
-    <div class="container">
-      <div class="title">男装</div>
-      <div class="content">
-        <div class="col-2">
-          <div class="card">
-
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
-
-          </div>
-         </div>
-        <div class="col-2 item">
-          <div class="card">
-
-          </div>
-         </div>
-      </div>
-    </div>
-
-    </div>
-  </div>
-  <div class="cat-promote clear-float">
-
-    <div class="container">
-      <div class="title">童装</div>
-      <div class="content">
-        <div class="col-2">
-          <div class="card">
-
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
-
-          </div>
-         </div>
-        <div class="col-2 item">
-          <div class="card">
-
-          </div>
-         </div>
-      </div>
-    </div>
-
-    </div>
-  </div>
-  <div class="cat-promote clear-float">
-
-    <div class="container">
-      <div class="title">老年装</div>
-      <div class="content">
-        <div class="col-2">
-          <div class="card">
-
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
-          </div>
-        </div>
-        <div class="col-3 item">
-          <div class="card">
-
-          </div>
-         </div>
-        <div class="col-2 item">
-          <div class="card">
-
-          </div>
-         </div>
-      </div>
-    </div>
-
-    </div>
-  </div>
-  <div class="footer clear-float">
-    <div class="container">
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-    </div>
-  </div>
-</body>
-</html>
+}
